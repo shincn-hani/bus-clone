@@ -9,7 +9,7 @@ function formatStatus(lateSeconds) {
   return `Sớm ${Math.round(Math.abs(lateSeconds) / 60)} phút`;
 }
 
-export default function App() {
+export default function App() { 
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
